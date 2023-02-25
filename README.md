@@ -1,4 +1,4 @@
-# Folder_to_GitHub
+# File_to_GitHub
 
 This repositorio was a homework from ComIT course, where I should have a file on my computer and send it to GitHub. For it, I did the steps bellow:
 
