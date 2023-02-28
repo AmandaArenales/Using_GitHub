@@ -1,17 +1,39 @@
 # File_to_GitHub
 
-This repository was homework from the ComIT course, where I should have a file on my computer and send it to GitHub. For it, I did the steps below:
+This repository was homework for the ComIT course. The simulated situation is: I have a local Git repository with one Python file and one remote repository on GitHub; So I need to merge the remote repository with my local one without losing any file or their histories.
 
-1. Open my command line application (git bash).
-2. Create a helloworld.py application (Nano)
-3. Create my repository "File_to_GitHub" on github.com
-4. Setup your helloworld.py app under source control, using the following commands: 
-a) git init 
-b) git status 
-c) git remote add origin "https link" (from GitHub) 
-d) git pull origin main --allow-unrelated-histories 
-e) git add . 
-f) fit commit -m "First change in the file" 
-g) git push origin main
+To solve this, I did the steps below:
 
-In this way I pushed my file up to my own repositorio.
+Open the “gib bash” command line.
+Create the `helloworld.py` file through the command line using nano.
+2.1 Created the local repository and added the helloworld.py using the commands:
+
+a) git init
+
+b) git add .
+
+c) git commit -m “message”
+
+There is no remote repository attached to the local one so, there is no need to: `git push origin main`
+
+Create the remote repository "File_to_GitHub" on github.com
+ 
+
+Returned to the local bash to connect the local repository to the remote one:
+
+`git remote add origin "https link"` (from GitHub)
+5. Pulled the changes (files) from the remote repository:
+
+d) `git pull origin main --allow-unrelated-histories`
+
+6. To do a final commit with all the files I edited the Python file again so I had something to commit. After the modification I could do:
+
+a. `git add .`
+
+b. `git commit -m "First change in the file"
+
+And finally:
+
+g) `git push origin main`
+
+In the end, I pushed my file up to the remote repository.
