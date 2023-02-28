@@ -4,36 +4,30 @@ This repository was homework for the ComIT course. The simulated situation is: I
 
 To solve this, I did the steps below:
 
-Open the “gib bash” command line.
-Create the `helloworld.py` file through the command line using nano.
+1. Open the “gib bash” command line.
+2. Create the `helloworld.py` file through the command line using nano.
 2.1 Created the local repository and added the helloworld.py using the commands:
 
-a) git init
+a) `git init`
 
-b) git add .
+b) `git add .`
 
-c) git commit -m “message”
+c) `git commit -m “message”`
 
 There is no remote repository attached to the local one so, there is no need to: `git push origin main`
 
-Create the remote repository "File_to_GitHub" on github.com
+3. Create the remote repository "File_to_GitHub" on github.com
  
+4. Returned to the local bash to connect the local repository to the remote one: `git remote add origin "https link"` (from GitHub)
 
-Returned to the local bash to connect the local repository to the remote one:
-
-`git remote add origin "https link"` (from GitHub)
-5. Pulled the changes (files) from the remote repository:
-
-d) `git pull origin main --allow-unrelated-histories`
+5. Pulled the changes (files) from the remote repository: `git pull origin main --allow-unrelated-histories`
 
 6. To do a final commit with all the files I edited the Python file again so I had something to commit. After the modification I could do:
 
-a. `git add .`
+a) `git add .`
 
-b. `git commit -m "First change in the file"
+b) `git commit -m "First change in the file"
 
-And finally:
-
-g) `git push origin main`
+And finally: `git push origin main`
 
 In the end, I pushed my file up to the remote repository.
