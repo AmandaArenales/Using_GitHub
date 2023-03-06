@@ -8,8 +8,7 @@ To solve this, I did the steps below:
 2. Create the `helloworld.py` file through the command line using nano.
     1.  Created the local repository and added the helloworld.py using the commands:
         1. `git init`
-
-b) `git add .`
+        2. `git add .`
 
 c) `git commit -m “message”`
 
