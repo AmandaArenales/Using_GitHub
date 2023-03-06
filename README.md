@@ -6,7 +6,7 @@ To solve this, I did the steps below:
 
 1. Open the *git bash* command line.
 2. Create the `helloworld.py` file through the command line using nano.
-    1.  Created the local repository and added the helloworld.py using the commands:
+3. Created the local repository and added the helloworld.py using the commands:
         1. `git init`
         2. `git add .`
         3. `git commit -m “message”`
