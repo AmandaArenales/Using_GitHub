@@ -21,7 +21,7 @@ There is no remote repository attached to the local one so, there is no need to:
 
 6. To do a final commit with all the files I edited the Python file again so I had something to commit. After the modification I could do:
         1.  `git add .`
-        2.   `git commit -m "First change in the file"`
+        2.  `git commit -m "First change in the file"`
 
 And finally: `git push origin main`
 
