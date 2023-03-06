@@ -9,8 +9,7 @@ To solve this, I did the steps below:
     1.  Created the local repository and added the helloworld.py using the commands:
         1. `git init`
         2. `git add .`
-
-c) `git commit -m “message”`
+        3. `git commit -m “message”`
 
 There is no remote repository attached to the local one so, there is no need to: `git push origin main`
 
@@ -22,9 +21,8 @@ There is no remote repository attached to the local one so, there is no need to:
 
 6. To do a final commit with all the files I edited the Python file again so I had something to commit. After the modification I could do:
 
-a) `git add .`
-
-b) `git commit -m "First change in the file"`
+        1.  `git add .`
+        2.   `git commit -m "First change in the file"`
 
 And finally: `git push origin main`
 
