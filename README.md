@@ -1,6 +1,6 @@
 # Using GitHub
 
-This repository was homework for the ComIT course. The simulated situation is: I need to add a Python file to a local Git repository and one remote repository on GitHub; then I need to merge the remote repository with my local one without losing any file or their histories.
+This repository was homework for the ComIT course. The simulated situation is: I have to create a Python file and add it to a local Git repository. After that I have to create a remote repository on GitHub and then connect them both in order to send code to GitHub.
 
 To solve this, I did the steps below:
 
