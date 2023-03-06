@@ -5,7 +5,9 @@ This repository was homework for the ComIT course. The simulated situation is: I
 To solve this, I did the steps below:
 
 1. Open the *git bash* command line.
+
 2. Create the `helloworld.py` file through the command line using nano.
+ 
   2.1. Created the local repository and added the helloworld.py using the commands:
 
     a. `git init`
