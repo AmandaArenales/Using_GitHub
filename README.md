@@ -7,13 +7,13 @@ To solve this, I did the steps below:
   1. Open the *git bash* command line.
   2. Create the `helloworld.py` file through the command line using nano.
   
-  2.1 Created the local repository and added the helloworld.py using the commands:
+    2.1 Created the local repository and added the helloworld.py using the commands:
 
-  a) `git init`
+    a) `git init`
 
-  b) `git add .`
+    b) `git add .`
 
-  c) `git commit -m “message”`
+   c) `git commit -m “message”`
 
 There is no remote repository attached to the local one so, there is no need to: `git push origin main`
 
