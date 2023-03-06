@@ -1,6 +1,6 @@
 # File_to_GitHub
 
-This repository was homework for the ComIT course. The simulated situation is: I have a local Git repository with one Python file and one remote repository on GitHub; So I need to merge the remote repository with my local one without losing any file or their histories.
+This repository was homework for the ComIT course. The simulated situation is: I have a local Git repository with one Python file and one remote repository on GitHub; so I need to merge the remote repository with my local one without losing any file or their histories.
 
 To solve this, I did the steps below:
 
