@@ -25,6 +25,6 @@ There is no remote repository attached to the local one so, there is no need to:
     
     2.  `git commit -m "First change in the file"`
 
-And finally: `git push origin main`
+    3. `git push origin main`
 
 In the end, I pushed my file up to the remote repository.
