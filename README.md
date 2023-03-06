@@ -20,7 +20,6 @@ There is no remote repository attached to the local one so, there is no need to:
 5. Pulled the changes (files) from the remote repository: `git pull origin main --allow-unrelated-histories`
 
 6. To do a final commit with all the files I edited the Python file again so I had something to commit. After the modification I could do:
-
         1.  `git add .`
         2.   `git commit -m "First change in the file"`
 
