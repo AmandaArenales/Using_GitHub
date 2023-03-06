@@ -10,13 +10,7 @@ To solve this, I did the steps below:
  
   2.1.  Created the local repository and added the helloworld.py using the commands:
   
-  1. Item1
-   1. SubItemA
-   2. SubItemB
-      - wat
-        - hi
-
-    a. `git init`
+    a) `git init`
 
 b) `git add .`
 
